@@ -1,0 +1,50 @@
+.headerPart {
+	background-color: #f7f8fa;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	min-height: 110px;
+	padding-top: 10px;
+	z-index: 1;
+}
+.headerPart img {
+	margin-left: 5px;
+	width: 40px;
+	height: 40px;
+	border-radius: 200px;
+}
+.navPart {
+	text-align: center;
+}
+.navPart a {
+	width: 100px;
+	margin: 0 20px;
+	text-align: center;
+	color: black;
+	padding: 10px;
+}
+.navPart a:hover {
+	text-decoration: none;
+	border-bottom: 2px solid crimson;
+}
+.profilePart {
+	width: 200px;
+	position: absolute;
+	right: 0;
+	margin-right: 150px;
+	text-align: center;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 500px) {
+	.navPart a {
+		margin: 10px 20px;
+	}
+	.navPart button {
+		margin-top: 15px;
+	}
+	.profilePart {
+		margin-top: 20px;
+	}
+}

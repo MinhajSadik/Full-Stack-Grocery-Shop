@@ -1,0 +1,20 @@
+.ordersPage {
+	margin-top: 120px;
+}
+
+.allOrdersNav {
+	height: 500px;
+	overflow: scroll;
+}
+.ordersMobileView {
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.ordersDesktopView {
+		display: none;
+	}
+	.ordersMobileView {
+		display: block;
+	}
+}

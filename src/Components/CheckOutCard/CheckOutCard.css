@@ -1,0 +1,32 @@
+.checkOutBox {
+	position: relative;
+	width: 30%;
+	background-color: aliceblue;
+	padding: 10px;
+	box-shadow: 10px 10px 20px black;
+	margin-left: auto;
+}
+.descriptionPart img {
+	width: 100px;
+}
+
+.checkOutButton {
+	margin-left: 30%;
+}
+.takaSymbol {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 950px) {
+	.checkOutBox {
+		margin-left: 0;
+		margin: 0 auto;
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 550px) {
+	.IncrementIcon,
+	.DecrementIcon {
+		font-size: 8px;
+	}
+}

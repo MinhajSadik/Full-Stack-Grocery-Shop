@@ -1,0 +1,12 @@
+.homeCard img {
+	height: 15rem;
+}
+.cardFooter img {
+	height: 20px;
+}
+.cardFooter p {
+	font-size: 20px;
+}
+.buyButton button {
+	padding: 8px 20px;
+}

@@ -1,0 +1,54 @@
+.socialButton {
+	text-align: center;
+	padding: 20px;
+	font-family: "Patrick Hand", cursive;
+}
+.socialHeaderText {
+	background-color: rgb(241, 223, 200);
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+	border-radius: 10px;
+}
+.socialButton h2 {
+	font-family: "Rock Salt", cursive;
+
+	text-align: center;
+	background: -webkit-linear-gradient(#f514ea, #f3af03);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 30px;
+}
+.socialButton button {
+	width: 400px;
+	padding: 20px;
+	border-style: none;
+	border-radius: 10px;
+	margin: 20px 10px;
+	color: azure;
+	cursor: pointer;
+}
+
+.socialRow {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.facebook button {
+	background-color: #098cf0a2;
+}
+.google button {
+	background-color: #de4b3bcc;
+}
+
+.socialIcons {
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.socialButton button {
+		width: 70%;
+	}
+}

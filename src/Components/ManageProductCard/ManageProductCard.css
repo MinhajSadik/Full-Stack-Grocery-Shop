@@ -1,0 +1,26 @@
+.productBox {
+	width: 80%;
+	background-color: rgb(251, 218, 206);
+	border-radius: 20px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.productBox img {
+	width: 60px;
+	height: 60px;
+	border-radius: 200px;
+}
+.headerHighLight {
+	color: crimson;
+	font-size: 20px;
+}
+.deleteButton {
+	border-radius: 300px;
+	color: rgb(248, 211, 164);
+}
+
+@media only screen and (max-width: 800px) {
+	.productBox {
+		width: 100%;
+	}
+}
