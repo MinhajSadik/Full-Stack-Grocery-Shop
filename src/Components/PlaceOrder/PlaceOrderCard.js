@@ -3,8 +3,7 @@ import { Col, Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
 
 const PlaceOrderCard = ({ onSubmit, displayName }) => {
-    // eslint-disable-next-line no-unused-vars
-    const { register, handleSubmit, errors } = useForm();
+    const { register, handleSubmit } = useForm();
 
     return (
         <div>

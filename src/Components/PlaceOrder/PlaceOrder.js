@@ -9,6 +9,7 @@ import OrderSuccessText from "../OrderSuccessText/OrderSuccessText";
 import PlaceOrderCard from "./PlaceOrderCard";
 
 const PlaceOrder = ({ orderDetails }) => {
+    // eslint-disable-next-line no-unused-vars
     const [LoggedInUser, setLoggedInUser] = useContext(LoggedInUserContext);
     const { displayName, email, photoURL } = LoggedInUser;
     const [orderPlace, setOrderPlace] = useState(false);

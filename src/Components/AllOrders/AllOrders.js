@@ -5,7 +5,7 @@ import "./AllOrders.css";
 
 const AllOrders = ({ orders }) => {
     // eslint-disable-next-line no-unused-vars
-    let { path, url } = useRouteMatch();
+    let {  url } = useRouteMatch();
     return (
         <div>
             <div className=" allOrders">

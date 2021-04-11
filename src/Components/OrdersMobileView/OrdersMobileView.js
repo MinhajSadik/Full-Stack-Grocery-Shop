@@ -1,11 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import axios from "axios";
-// eslint-disable-next-line no-unused-vars
-import React, { useEffect, useState } from "react";
-// eslint-disable-next-line no-unused-vars
+import React, {  } from "react";
 import { Row, Table } from "react-bootstrap";
-// eslint-disable-next-line no-unused-vars
-import { useParams } from "react-router";
 
 const OrdersMobileView = ({ order }) => {
     return (

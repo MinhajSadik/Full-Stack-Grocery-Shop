@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Col, Row, Table } from "react-bootstrap";
+import {  Row, Table } from "react-bootstrap";
 import { useParams } from "react-router";
 import "./SelectedOrder.css";
 
