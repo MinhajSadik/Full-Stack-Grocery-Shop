@@ -1,19 +1,21 @@
-import React, { useContext, useEffect } from "react";
+// import React, { useContext, useEffect } from "react";
 import "./SocialLogIn.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 import {
-    currentLoggedInUserLoad,
+    // eslint-disable-next-line no-unused-vars
     initializeFramework,
     signInWithFacebook,
     signInWithGoogle,
 } from "../FirebaseManegment/FirebaseManegment";
 import { LoggedInUserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
+import { useContext } from "react";
 
 const SocialLogin = () => {
     initializeFramework();
+    // eslint-disable-next-line no-unused-vars
     const [LoggedInUser, setLoggedInUser] = useContext(LoggedInUserContext);
 
     let history = useHistory();
