@@ -33,7 +33,15 @@ const Orders = () => {
               <AllOrders orders={orders} />
             ) : (
               <div className="text-center">
-                <img src={Ellipsis} alt="" />
+                <img
+                  style={{
+                    height: "100px",
+                    width: "100px",
+                    alignContent: "center",
+                  }}
+                  src={Ellipsis}
+                  alt=""
+                />
               </div>
             )}
           </div>
